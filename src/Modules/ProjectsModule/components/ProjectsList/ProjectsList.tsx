@@ -249,10 +249,10 @@ export default function ProjectsList() {
                             <div>
 
                             <li className="dropdown-option">
-                              <a className="dropdown-item text-decoration-none text-black h2-dark " href="#" onClick={()=>handleViewModal(project)}>
+                              <button className="dropdown-item text-decoration-none text-black h2-dark "  onClick={()=>handleViewModal(project)}>
                                 <i className="fa fa-eye text-info me-2 "></i>
                                 <span className="dark-p">View</span>
-                              </a>
+                              </button>
                             </li>
                             
                             <li className="dropdown-option">
