@@ -32,6 +32,7 @@ export const useAuth = () => {
 }
 export default function AuthContextProvider(props: PropsWithChildren) {
   const [loginUser, setLoginUser] = useState(null);
+  
   let requestHeaders = {
     Authorization: `Bearer ${localStorage.getItem("token")}`,
   };
