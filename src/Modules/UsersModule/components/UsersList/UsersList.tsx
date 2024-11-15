@@ -246,14 +246,14 @@ export default function UsersList() {
                               <div>
       
                               <li>
-                                <a className="dropdown-item text-decoration-none text-black dark-p" href="#" onClick={()=>handleViewModal(user)}>
+                                <a className="dropdown-item text-decoration-none text-black dark-p" onClick={()=>handleViewModal(user)}>
                                   <i className="fa fa-eye text-info me-2"></i>
                                   <span>View</span>
                                 </a>
                               </li>
                               
                               <li>
-                                <a className="dropdown-item text-decoration-none text-black dark-p" onClick={() => handleDeleteShow(user.id)}  href="#">
+                                <a className="dropdown-item text-decoration-none text-black dark-p" onClick={() => handleDeleteShow(user.id)} >
                                   <i className="fa fa-trash text-danger me-2"></i>
                                   <span>Delete</span>
                                 </a>

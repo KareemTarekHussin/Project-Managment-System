@@ -258,14 +258,14 @@ export default function ProjectsList() {
                             </li>
                             
                             <li className="dropdown-option">
-                              <a className="dropdown-item text-decoration-none text-black" href="#" onClick={() => navigateToEdit(project.id)}>
+                              <a className="dropdown-item text-decoration-none text-black" onClick={() => navigateToEdit(project.id)}>
                                 <i className="fa fa-edit text-warning me-2 "></i>
                                 <span  className="dark-p">Edit</span>
                               </a>
                             </li>
 
                             <li className="dropdown-option">
-                              <a className="dropdown-item text-decoration-none text-black" onClick={() => handleDeleteShow(project.id)}  href="#">
+                              <a className="dropdown-item text-decoration-none text-black" onClick={() => handleDeleteShow(project.id)} >
                                 <i className="fa fa-trash text-danger me-2"></i>
                                 <span  className="dark-p">Delete</span>
                               </a>
