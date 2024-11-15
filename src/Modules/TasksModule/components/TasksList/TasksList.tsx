@@ -327,7 +327,7 @@ export default function TasksList() {
                                   <li>
                                     <a
                                       className="dropdown-item text-decoration-none text-black dark-p"
-                                      href="#"
+                                   
                                       onClick={() => handleViewModal(task)}
                                     >
                                       <i className="fa fa-eye text-info me-2"></i>
@@ -350,7 +350,7 @@ export default function TasksList() {
                                     <a
                                       className="dropdown-item text-decoration-none text-black dark-p"
                                       onClick={() => handleDeleteShow(task.id)}
-                                      href="#"
+                                    
                                     >
                                       <i className="fa fa-trash text-danger me-2"></i>
                                       <span>Delete</span>
